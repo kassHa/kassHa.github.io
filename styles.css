@@ -1,3 +1,115 @@
-body {
-	background-color: blue;
+
+html { 
+  background: url(summer.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
+
+h1 {
+	font-size: 40px; 
+	font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+	font-size: 20px;
+	color: #1E2028;
+	text-shadow: 1px 0;
+
+}
+
+#picture {
+	border-radius: 8px;
+	width: 700px;
+	height: 400px;
+	display: block;
+	margin: auto;
+}
+
+#border {
+	
+	width: 700px; 
+	height: 250px;
+	
+}
+
+.table {
+	border-color: orange;
+	border: 2px solid;
+	width: 700px; 
+	height: 250px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table, th, td {
+	border: 3px solid orange;
+	border-collapse: collapse;
+	margin: auto;
+
+}
+
+
+.links {
+	border: 3px solid #95A3B3;
+	padding-left: 10px;
+	width: 850px;	
+	margin-left: 280px;
+}
+
+.bullet {
+	padding-left: 5px;
+	color:	#FF0087;
+}
+
+.button {
+	width: 500px;
+	background-color: lightgreen;
+	color: hotpink;
+	font-weight: bold;
+	font-size: 30px;
+	margin-left: 450px;
+	margin-top: 50px;
+}
+
+
+a:link {
+	color: hotpink;
+}
+
+a:visited {
+    color: #72003D;
+}
+
+a:hover {
+    color: #FF0087;
+}
+
+a:active {
+    color: green;
+    }
+
+
+/* phone */
+@media only screen and (max-width: 600px) {
+	body {
+		color: gray;
+	}
+	h1 {
+		font-size: 20px; 
+	}	
+	#picture {
+	border-radius: 8px;
+	width: 400px;
+	height: 200px;
+	display: block;
+	margin: auto;
+	}
+
+}
+
+
+
+
